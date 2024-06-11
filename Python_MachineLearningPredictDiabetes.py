@@ -76,7 +76,7 @@ print('Prediction: ', newModel.predict(sampleScaled))
 
 # Since the program outputted '1', this person is predicted to have diabetes.
 
-print('\nClassification report:\n', metrics.classification_report(y_trainB, y_pred))
+print('\nClassification report:\n', metrics.classification_report(y_trainB, y_pred))    # print classification report
 
 
 plt.show()  # display all plots
